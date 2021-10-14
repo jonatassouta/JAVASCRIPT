@@ -1,1 +1,45 @@
 
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+
+    <!-- Referencia dos icones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    <!--  <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>To do List</title>
+  </head>
+  <body>
+       <div id="main-container">
+      <div id="add-container">
+          <h2>Adicione uma tarefa</h2>
+          <form action="">
+              <input type="text" name="task" id="task" placeholder="O que há de novo?">
+              <button type="Enviar" id="add"><i class="fa fa-user-items">+</i></button>
+          </form>
+      </div>
+
+      <div id="tasks-container">
+          <h2>Veja suas tarefas</h2>
+          <div class="task hide">
+              <i class="fa fa-check"></i>
+              <span class="task-title">Titulo da tarefa</span>
+              <i class="fa fa-trash hide"></i>
+          </div>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+
+    <script src="/js/bootstrap.bundle.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
