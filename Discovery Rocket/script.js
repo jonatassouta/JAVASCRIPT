@@ -287,3 +287,48 @@ console.log("-------------Decremento------------")
 for ( let i = 10; i > 0; i--) {
     console.log(i)
 }
+
+for ( let i = 10; i > 0; i--) {
+
+  if(i === 5) {
+    //continue
+    break
+  }
+
+  console.log(i)
+}
+
+console.log("-------------While------------")
+
+let i = 0
+while(i < 10){
+  console.log(i)
+
+  i++
+}
+
+console.log("-------------For OF------------")
+
+let nome1 = 'Jeniffer'
+let nome2 = ['Jõao', 'Paulo', 'Pedro']
+
+for(let char of nome1) {
+  console.log(char)
+}
+
+for(let char of nome2) {
+  console.log(char)
+}
+
+console.log("-------------For IN------------")
+
+let pessoa = {
+  nome: 'Jonatas',
+  idade: 27,
+  peso: 80
+}
+
+for(let property in pessoa) {
+  console.log(property)
+  console.log(pessoa[property])
+}
